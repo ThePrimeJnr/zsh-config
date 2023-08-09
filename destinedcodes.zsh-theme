@@ -30,5 +30,6 @@ function git_prompt {
 
 # Customize your Zsh prompt
 PROMPT="
-%(?:%{$fg_bold[green]%}╭─:%{$fg_bold[red]%}╭─) %{$fg[cyan]%}%c%{$reset_color%} \$(git_prompt)
-%(?:%{$fg_bold[green]%}╰─➜ :%{$fg_bold[red]%}╰➜ )"
+%(?:%{$fg_bold[green]%}╭─:%{$fg_bold[red]%}╭─) %{$fg[cyan]%}%c%{$reset_color%} \$(git_prompt)%(?..%{$reset_color%})  
+%(?:%{$fg_bold[green]%}╰─➜ :%{$fg_bold[red]%}╰─➜ )"
+
