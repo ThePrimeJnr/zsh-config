@@ -93,35 +93,16 @@ alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-
 alias vi='nvim'
 alias vim='nvim'
-
 alias emacs='emacs -nw'
-
-export TERM=xterm-256color
-
-export PATH="$PATH:."
-export ANDROID_HOME="/home/destiny/Android/Sdk/cmdline-tools/latest/bin/sdkmanager"
-export PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
-. "$HOME/.cargo/env"
-export PATH="$PATH":"$HOME/.local/share/nvim/"
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-
-export PATH="$JAVA_HOME/bin:$PATH"
-export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/
-export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
-
-export PATH="$HOME/fvm/default/bin:$PATH"
-
-export PATH="$PATH:/home/destiny/Downloads/fvm"
-
 alias py='python3'
 alias python='python3'
-export PATH="$HOME/.local/bin:$PATH"
 alias pep='pycodestyle'
 alias clr='clear'
+
+export TERM=xterm-256color
+export PATH="$HOME/.local/bin:$PATH"
